@@ -1,0 +1,112 @@
+*{
+	margin: 2;
+	padding: 2;
+	box-sizing: border-box;
+}
+body{
+	font-family:Arial;
+	padding:20;
+	background-color: lightgrey;
+}
+h1{
+	color:red;
+	text-align:center;
+	margin-bottom:10px;
+}
+h2 {
+    color: darkgreen;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+p{
+	font-size:16px;
+	margin: 10PX;
+}
+#heading{
+	background-color:lightblue;
+	padding:15px;
+	border:1px solid green;
+}
+.demo1{
+	background-color:lightgreen;
+	padding:8px;
+}
+.demo2{
+	background-color:pink;
+	padding:8px;
+}
+h3, button {
+	font-family: Arial;
+	color:purple;
+}
+.container p{
+	color:pink;
+	background-color: lightyellow;
+	padding:8px;
+}
+.container > p {
+    color: blue;
+    font-weight: bold;
+}
+h3 + p{
+	color:red;
+	font-weight:bold;
+}
+h3 ~ p{
+	background-color:yellow;
+}
+input[type="text"]{
+	background-color:lightyellow;
+	padding:8px;
+}
+input[type="password"]{
+	background-color:lightblue;
+	padding:8px;
+}
+input[type="gmail"]{
+	background-color:lightgreen;
+	padding:8px;
+}
+button:hover{
+	background-color:orange;
+	color:white;
+}
+li:first-child{
+	color:blue;
+}
+li:nth-child(2){
+	background-color:lightblue;
+}
+li:nth-child(4){
+	font-weight:bold;
+	background-color:pink;
+}
+input:checked{
+	accent-color:lightblue;
+}
+input:disabled {
+    background-color: gray;
+    color: white;
+}
+.pseudo::first-letter{
+	color:blue;
+	font-weight:bold;
+	font-size: 20px;
+
+}
+.pseudo::first-line{
+	color:chocolate;
+}
+p {
+    color: blue;
+}
+
+
+.text {
+    color: green;
+}
+
+
+#para {
+    color: red;
+}
